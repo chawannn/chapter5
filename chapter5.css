@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%; /* 横幅90% */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #848282;
+  border-top: 1px solid #848282;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.main {
+  width: 800px; /* 横幅840px */
+  display: flex; /* Flexboxの利用 */
+  margin: 50px auto; /* 中央寄せ（左右に余白がないとできない） */
+  flex-wrap: wrap;
+}
+
+.cel1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.cel2 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.cel3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.cel4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.cel5 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.cel6 {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.cel7 {
+  width: 200px;
+  height: 200px;
+  background-color: #effa5;
+}
+
+.cel8 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.cel9 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.cel10 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.cel11 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.cel12 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer {
+  width: 100%; /* 横幅いっぱい */
+  height: 120px; /* 高さ120px */
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
+}
